@@ -14,7 +14,9 @@ const signUp = () => {
                     className={`input-default`} type="password"
                     placeholder="비밀번호 입력" />
             </p>
-            <p><button className={`button-default`} type="button">회원가입</button></p>
+            <p>
+                <button 
+                    className={`button-default`} type="button">회원가입</button></p>
         </div>
     )
 }
