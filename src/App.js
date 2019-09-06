@@ -1,11 +1,12 @@
 import React from 'react';
-import SignUp from './pages/SignUp';
-
+import UseStateTest from './pages/UseStateTest';
+import Counter from './pages/counter';
+import EffectSample from './pages/EffectSample';
 
 const App = () => {
   return (
     <div>
-      <SignUp />
+      <EffectSample />
     </div>
   )
 }
