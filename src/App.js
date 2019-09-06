@@ -1,14 +1,14 @@
 import React from 'react';
-import SingUp from './pages/SignUp';
+import EffectSample from './pages/EffectSample';
+import Counter from './pages/Counter';
+
 
 const App = () => {
   return (
     <div>
-      <SingUp />
+      <EffectSample />
     </div>
   )
 }
 
 export default App;
-
-//class  로 작업 하지 않는 이유..... 페이스북...
